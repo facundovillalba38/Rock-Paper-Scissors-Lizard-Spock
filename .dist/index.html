@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <title>BIG BANG THEORY RPSLS GAME</title>
+        <link rel="stylesheet" href="codigoCSS.css">
+    </head>
+    <body>
+        <header>
+            <h1>ROCK, PAPER, SCISSOR, LIZARD, SPOCK</h1>
+        </header>
+
+        <div class="score-board">
+            <div id="userLabel" class="badge">You</div>
+            <div id="computerLabel" class="badge">Sheldon</div>
+            <span id="userScore">0</span>:<span id="computerScore">0</span>
+        </div>
+        
+         <div class="result">
+            <p>Paper covers rock, you win!</p>
+        </div>
+
+        <div class="choices">
+            <div class="choice" id="r">
+                <img src="images/Rock.png" alt="">
+                <p>Rock</p>
+            </div>
+            <div class="choice" id="p">
+                <img src="images/Paper.png" alt="">
+                <p>Paper</p>
+            </div>
+            <div class="choice" id="s">
+                <img src="images/Scissors.png" alt="">
+                <p id="s">Scissors</p>
+            </div>
+            <div class="choice" id="l">
+                <img src="images/Lizard.png" alt="">
+                <p>Lizard</p>
+            </div>
+            <div class="choice" id="b">
+                <img src="images/Spock.png" alt="">
+                <p>Spock</p>
+            </div>
+        </div>
+        
+        <p id="actionMessage">Make your move.</p>
+        <script src="codigoJS.js" charset="UTF-8"></script>
+    </body>
+</html>
